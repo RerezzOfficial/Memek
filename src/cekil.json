@@ -1,0 +1,42 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2023-03-10T21:32:59+07:00",
+    "name": "EGGS PM2 BY REREZ",
+    "author": "rerezhosting@gmail.com",
+    "description": null,
+    "features": null,
+    "docker_images": {
+        "VIP EGGS BY CEKIL": "ghcr.io\/cekilpedia\/vip:kaybycekil"
+    },
+    "file_denylist": [],
+    "startup": "\/usr\/local\/bin\/${CUSTOM_STARTUP}",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"running\"\r\n}",
+        "logs": "{}",
+        "stop": "^^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "apt update\r\napt install curl -y\r\n\r\nmkdir -p \/mnt\/server\r\ncd \/mnt\/server\r\n\r\nrm -rf .config\r\nmkdir .config\r\nmkdir .config\/neofetch\r\n\r\ncurl -s https:\/\/raw.githubusercontent.com\/cekilpedia\/egg-vip\/cekilegg\/README-egg-vip --output BY-CEKIL\r\ncurl -s https:\/\/raw.githubusercontent.com\/cekilpedia\/egg-vip\/cekilegg\/kay.conf --output .config\/neofetch\/config.conf",
+            "container": "node:19",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "CUSTOM STARTUP",
+            "description": "Jangan di ubah ©cekilxd",
+            "env_variable": "CUSTOM_STARTUP",
+            "default_value": "node \/run.cjs",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string",
+            "field_type": "text"
+        }
+    ]
+}
