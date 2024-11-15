@@ -6,6 +6,13 @@
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RerezzOfficial/Memek.git"
+  },
+  "keywords": [
+    "whatsapp"
+  ],
   "author": "ALWAYS XYREZZ OFFICIAL",
   "license": "MIT",
   "dependencies": {
