@@ -47,9 +47,10 @@ global.xchannel = {
 //====================[ BOT SETTINGS ]=====================\\
 global.ownername = "XYREZZ OFFC"
 global.rowner = [
-    ["6282312436896", "XYREZZ HOSTING OFFC", true], // OWN 1
+    ["6285215527536", "XYREZZ HOSTING OFFC", true], // OWN 1
     ["6285216955233", "XYREZZ OFFC", true], // OWN 2
-    ["6283804766053", "REREZ HOSTING", true] // OWN 3
+    ["6283804766053", "REREZ HOSTING", true], 
+	["6281563424562", "REREZ HOSTING", true]// OWN 3
                  ];
 global.owner = ["6285216955233"] 
 global.botno = "6283841605780"
